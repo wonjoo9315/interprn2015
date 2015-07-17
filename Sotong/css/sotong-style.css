@@ -1,0 +1,88 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-bottom: 20px;
+}
+
+.sotong-navbar{
+	margin-bottom: 0px;
+}
+
+.sotong-nav-btn{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+
+
+.sotong-jumbotron{
+	position: relative;
+	height: 450px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 0px;
+
+	background-image: url(../img/jumbotronbackground.jpg);
+	background-position: 0% 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+
+}
+
+.sotong-search{
+	position: absolute;
+	bottom: 0px;
+
+	width: 100%;
+	height: 120px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+.sotong-search-type{
+	position: relative;
+	margin: 8px auto;
+}
+.sotong-search-type-btn{
+	position: inherit;
+	padding: 9px;
+	text-align: center;
+	width: 90px;
+	height: 40px;
+	margin: 5px 5px;
+	border-radius: 10px 10px 10px 10px;
+	background: transparent;
+	color: white;
+}
+
+.sotong-search-input{
+	display: inline-block;
+	width: 250px;
+	height: 40px;
+	border-radius: 30px 30px 30px 30px;
+	background-color: transparent;
+}
+
+.sotong-dir-icon{
+	width: 40px;
+	height: 40px;
+}
+
+.sotong-btn-alpha{
+	background: rgba(255,255,255,0.2);
+	color:white;
+}
+
+.sotong-btn-transparent{
+	background: transparent;
+	border: 0;
+}
+
+.sotong-rsquare{
+	width: 40px;
+	height: 40px;
+	border: black;
+}
